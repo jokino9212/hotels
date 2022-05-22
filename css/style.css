@@ -1,0 +1,567 @@
+    @font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerMedium.woff2') format('woff2'),
+      url('../fonts/MullerMedium.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    }
+  
+    @font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerLight.woff2') format('woff2'),
+      url('../fonts/MullerLight.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+    @font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBold.woff2') format('woff2'),
+      url('../fonts/MullerBold.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    }
+  
+    @font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerRegular.woff2') format('woff2'),
+      url('../fonts/MullerRegular.woff') format('woff');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    } 
+
+
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #666
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    body {
+        font-family: 'Muller', sans-serif;
+        background-color: #e5e5e5;
+    }
+
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .header {
+        margin-top: 30px;
+        margin-bottom: 70px;
+     }
+
+     .section-heading {
+         margin-bottom: 20px;
+         padding-left: 40px;
+         font-size: 40px;
+         font-weight: 400;
+     }
+
+    .btn {  
+        min-width: 100px;  
+        min-height: 42px;
+        display: inline-block;
+        padding: 13px 20px;
+        font-size: 16px;
+        line-height: 1;
+        border: 1px solid #CC9933;
+        border-radius: 10px;
+        text-transform: none;
+        background-color: inherit;
+        color: #cc9933;
+        cursor: pointer;
+
+    }
+
+
+    /* Heder */
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .top-info {
+        align-items: center;
+        display: flex;
+    }
+
+    .logo {
+        padding: 0;
+        height: 54px;
+    }
+    
+    .logo-img{
+       width: 261px;
+       height: 54px;
+    }
+
+    .top-tel {
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .header-lk-link {
+        display: block;
+        background-size: 21px 12px;
+        background-image: url(../img/Vector.svg);
+        background-repeat: no-repeat;
+        background-position-y: 2px;
+        padding-left: 28px;
+        color:  #CC9933;
+        
+        
+    }
+
+    .header-bottom-nav {
+        padding: 14px 45px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 15px;
+        height: 72px;
+        
+    }
+
+    .bottom-nav-list-left {
+        display: flex;
+    }
+
+       
+
+    .bottom-nav-item-left:not(:last-child) {
+        margin-right: 45px;
+    }
+
+    .bottom-nav-item-left:last-child {
+        margin-right: 56px;
+    }
+
+    .bottom-nav-link {
+    font-size: 16px;
+    line-height: 1;
+    }
+    .bottom-right {
+        padding-left: 57px;
+        border-left: 1px solid #E1E1E1;
+    }
+
+    .bottom-nav-right {
+        display: flex;
+    }
+
+    .btn-tour   {
+        margin-right: 40px;
+    }
+    
+    
+
+    /*Hero */
+    .section-hero-content {
+        display: flex;   
+    }
+
+    .section-hero-left {
+        margin-right: 23px;
+    }
+  
+    .section-hero-block {
+        min-width: 573px;
+        min-height: 258px;
+        padding: 40px;
+    }
+
+    .section-hero-heading {
+        margin-bottom: 15px;
+        width: 299px;
+        font-size: 40px;
+        font-weight: 700px;
+        color: #FFFFFF;
+    }
+
+    .section-hero-price {
+        display: inline-block;
+        margin-bottom: 47px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+        opacity: 80%;
+    }
+
+    .section-hero-link {
+        padding-right: 15px;
+        background-position: right;
+        background-size: 1.5;
+        font-size: 16px;
+        font-weight: 400;
+        color:  #FFCC66;
+        background-image: url('../img/strelkavpravo.svg');
+        background-repeat: no-repeat;
+    }
+
+    .section-hero-block:not(:last-child) {
+        margin-bottom: 23px;
+    }
+
+    .section-hero-block--maldives {
+        background-image: url('../img/Maldives.png');
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .section-hero-block--crit {
+        background-image: url('../img/Crit.png');
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .section-hero-right{
+        min-width: 573px;
+        min-height: 258px;            
+    }
+
+    .section-hero-right-block {
+        padding: 40px 40px 40px 40px;
+        min-width: 573px;
+        min-height: 540px;
+        background-image: url('../img/lux.png');
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+    .section-hero-heading-right {
+        padding-top: 171px;
+        width: 299px;
+        margin-bottom: 15px;
+        font-size: 60px;
+        color: #FFFFFF;
+    }
+
+    .section-hero-price-right {
+        display: inline-block;
+        margin-bottom: 47px;
+        font-size: 30px;
+        font-weight: 400;
+        color: #FFFFFF;
+        opacity: 80%;
+
+    }
+
+    .section-hero {
+        margin-bottom: 70px;
+    }
+
+
+    /* Us */
+    .section-heading--us {
+        margin-bottom: 11px;
+    }
+
+    .section-us-container-text {
+        margin-right: auto ;
+        /* margin-right: 657px */
+        max-width: 888px;     
+    }
+
+    .section-us-description {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .section-us {
+        margin-bottom: 70px;
+    }
+
+
+    /* Services */
+    .section-services-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-services-item {
+        width: 49%;
+    }
+
+    .section-services-cervice {
+        padding-top: 200px; 
+        /* ПОЧЕМУ КОГДА СТАВИШЬ 251 pX КАК ПОЛОЖЕНО НИХЕРА НЕ ПОЛУЧАЕТСЯ?!СЪЕЗЖАЕТ ВНИЗ */
+        padding-left: 45px;
+        padding-bottom: 50px;
+        border-radius: 15px 15px 0 0;
+       
+        background-size: 573px 165px;
+        background-repeat: no-repeat;
+        max-height: 330px;
+        background-color: #FFFFFF;
+        /* ПОЧЕМУ ВИДНЫ БЕЛЫЕ УГОЛКИ */     
+    }
+    
+    .section-services-cervice--exclusive {
+        background-image: url('../img/exclusive_service.png');
+    }
+
+    .section-services-cervice--banquet {
+        background-image: url('../img/rent_banquet_halls.png');
+    }
+
+    .section-services-cervice--sauna{
+        background-image: url('../img/sauna.png');
+    }
+      
+    .section-services-cervice--cars {
+        background-image: url('../img/cars.png');
+    }
+
+    .section-services-link {
+        padding-right: 15px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        background-image: url('../img/strelkavpravo.svg');
+        background-size: 1.5;
+        background-position: right;
+        background-repeat: no-repeat;
+        color: #CC9933;
+    }
+    
+    .section-services-description {
+        display: inline-block;
+        max-width: 402px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        ;
+    }
+    
+    .section-services-item:not(:nth-child(2n)) {
+        margin-right: 23px;
+    }
+
+    .section-services-item:nth-child(-n+2) {
+        margin-bottom: 23px;
+    }
+    
+    .section-services {
+        margin-bottom: 70px;
+    }
+
+
+    /* Advantages */
+    .section-heading-advantages {
+    margin-bottom: 30px;
+    }
+
+    .section-advantages-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        flex: 1 1 auto;  
+    }
+
+    .section-advantages-item {
+        width: 23.5%;
+        /* min-width: 275 px*/
+    }
+
+    .section-advantages-item:not(:nth-child(4n)) {
+        margin-right: 23px;
+    }
+
+    .section-advantages-item:nth-child(-n+4) {
+        margin-bottom: 23px;
+    }
+
+    .section-advantages-item-block {
+        padding: 40px 42px 41px 45px;
+        min-width: 275px;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+    }
+
+    .section-advantages-img {
+        display: inline-block;
+        width: 66px;
+        height: 66px;
+        padding-top: 40px;
+        padding-left: 45px;
+        background-repeat: no-repeat;
+    }
+
+    .section-advantages-img--bathhub{
+        background-image: url('../img/background/bathtub.svg');
+    }
+
+    .section-advantages-img--hanger{
+        background-image: url('../img/background/hanger.svg');
+    }
+
+    .section-advantages-img--heating{
+        background-image: url('../img/background/heating.svg');
+    }
+
+    .section-advantages-img--hotel-key{
+        background-image: url('../img/background/hotel-key.svg');
+    }
+
+    .section-advantages-img--parking{
+        background-image: url('../img/background/parking.svg');
+    }   
+
+    .section-advantages-img--reception{
+        background-image: url('../img/background/reception.svg');
+    }   
+
+    .section-advantages-img--security-box{
+        background-image: url('../img/background/security-box.svg');
+    }
+
+    .section-advantages-img--swimming-pool{
+        background-image: url('../img/background/swimming-pool.svg');
+    }
+
+    .section-advantages-item-description {
+        width: 188px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .section-advantages{
+        margin-bottom: 70px;
+    }
+
+
+    /* Placement*/
+    .section-placement {
+        margin-bottom: 70px;
+    }
+    .section-heading-placement {
+        margin-bottom: 30px;
+    }
+
+    .section-placement-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-placement-item {
+        width: 32%;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+    }
+
+    .section-placement-item:not(:nth-child(3n)) {
+        margin-right: 23px;
+    }
+    
+    .section-placement-item:nth-child(-n+6) {
+        margin-bottom: 23px;
+    }
+
+    .section-placement-img {
+        margin-bottom: 36px;
+    }
+
+    .section-placement-description {
+        padding: 0 46px 41px 45px;
+        
+    }
+
+    .section-placement-ot {
+        display: inline-block;
+        margin-bottom: 16px;
+        
+        font-size: 16px;
+        font-weight: 400;
+        color: #999999;
+    }
+    
+    .section-placement-price {
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .section-placement-period-time {
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+        margin-right: 44px;
+    }
+
+    .section-placement-title {
+        display: inline-block;
+    }
+
+    .section-placement-hotel-name {
+        display: inline-block;
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+    }
+
+    .section-placement-area {
+        margin-bottom: 20px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        color: #999999;
+    }
+    
+     .section-placement-link {
+        padding-right: 15px;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 200%;
+        color: #FFFFFF;
+        background-image: url('../img/background/all_arrow.svg');
+        background-size: 1.5;
+        background-position: right;
+        background-repeat: no-repeat;
+        
+    }
+
+    .section-placement-item--all-variants {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 373px;
+        padding-right: 54px;
+        padding-bottom: 27px;
+        padding-left: 54px;
+        background-image:url('../img/background/placement9all.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+         
+    }
