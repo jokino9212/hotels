@@ -702,13 +702,14 @@
         padding-top: 44px;
         padding-right: 51px;
         padding-left: 52px;
+        padding-bottom: 46px;
         background: #333333;
+        border-radius: 15px;
     }   
 
     .footer-left {
         margin-right: 102px;
         width: 320px;
-        height: 178px;
     }
 
     .footer-content-left {
@@ -718,7 +719,6 @@
     .footer-center {
         margin-right: 100px;
         width: 500px;
-        height: 228px;
         position: relative;
     }
 
@@ -742,7 +742,8 @@
         right: 0;
         bottom: 0;
         background-size: 100%;
-        background-repeat: no-repeat;    
+        background-repeat: no-repeat;  
+        transform: translateY(46px);  
     }
 
     .footer-text {
@@ -757,7 +758,7 @@
     }
 
     .footer-text-copyrights {
-        line-height: 30,4px;
+        line-height: 30.4px;
     }
     
 
