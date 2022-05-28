@@ -719,6 +719,7 @@
         margin-right: 100px;
         width: 500px;
         height: 228px;
+        position: relative;
     }
 
     .footer-right {
@@ -733,10 +734,14 @@
 
 
     .footer-background-icon {
-        background-image: url('\img\background\sun.svg');
+        width: 254px;
+        height: 228px;
+        background-image: url('/img/background/sunright.svg');
         display: inline-block;
-        position: bottom right;
-        background-size: 254px 258px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-size: 100%;
         background-repeat: no-repeat;    
     }
 
@@ -748,8 +753,13 @@
 
     .footer-copyrights {
         margin-bottom: 49px;
+        
+    }
+
+    .footer-text-copyrights {
         line-height: 30,4px;
     }
+    
 
     .a-footer-link-soglashenie {
         font-size: 16px;
